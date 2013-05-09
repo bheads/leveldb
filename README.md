@@ -1,8 +1,7 @@
 #Leveldb D Deimos Bindings
 
 from [code.google.com/p/leveldb](https://code.google.com/p/leveldb/):
-"
-###LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+"LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 
 ###Features
 - Keys and values are arbitrary byte arrays.
