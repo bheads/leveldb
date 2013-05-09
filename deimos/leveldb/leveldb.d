@@ -47,22 +47,22 @@ extern(C):
 nothrow:
 
 /* Exported types */
-struct leveldb_t {}
-struct leveldb_cache_t {}
-struct leveldb_comparator_t {}
-struct leveldb_env_t {}
-struct leveldb_filelock_t {}
-struct leveldb_filterpolicy_t {}
-struct leveldb_iterator_t {}
-struct leveldb_logger_t {}
-struct leveldb_options_t {}
-struct leveldb_randomfile_t {}
-struct leveldb_readoptions_t {}
-struct leveldb_seqfile_t {}
-struct leveldb_snapshot_t {}
-struct leveldb_writablefile_t {}
-struct leveldb_writebatch_t {}
-struct leveldb_writeoptions_t {}
+alias void* leveldb_t;
+alias void* leveldb_cache_t;
+alias void* leveldb_comparator_t;
+alias void* leveldb_env_t;
+alias void* leveldb_filelock_t;
+alias void* leveldb_filterpolicy_t;
+alias void* leveldb_iterator_t;
+alias void* leveldb_logger_t;
+alias void* leveldb_options_t;
+alias void* leveldb_randomfile_t;
+alias void* leveldb_readoptions_t;
+alias void* leveldb_seqfile_t;
+alias void* leveldb_snapshot_t;
+alias void* leveldb_writablefile_t;
+alias void* leveldb_writebatch_t;
+alias void* leveldb_writeoptions_t;
 
 /* DB operations */
 
