@@ -212,7 +212,7 @@ leveldb_comparator_t* leveldb_comparator_create(
         void*,
         const char* a, size_t alen,
         const char* b, size_t blen) compare,
-    const char* function(void*) name);
+    const(char*) function(void*) name);
 void leveldb_comparator_destroy(leveldb_comparator_t*);
 
 /* Filter policy */
@@ -229,7 +229,7 @@ leveldb_filterpolicy_t* leveldb_filterpolicy_create(
         void*,
         const char* key, size_t length,
         const char* filter, size_t filter_length) key_may_match,
-    const char* function(void*) name);
+    const(char*) function(void*) name);
 void leveldb_filterpolicy_destroy(leveldb_filterpolicy_t*);
 
 leveldb_filterpolicy_t* leveldb_filterpolicy_create_bloom(
