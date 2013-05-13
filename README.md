@@ -22,13 +22,11 @@ There is no client-server support builtin to the library. An application that ne
 "
 
 ##Version: 1.9.0
+This pulls in the C api, and is used in [d-leveldb](https://github.com/bheads/d-leveldb).
 
-The is pulls in the C api, its not as complete as the C++ api.  The C++ version uses
-lots of abstract and virtual classes, so until D gets better C++ support this will have
-to do.  This is used in [d-leveldb](https://github.com/bheads/d-leveldb).
-
-Get this with [dub](http://registry.vibed.org/packages/leveldb):
 ### Installation
+Get this with [dub](http://registry.vibed.org/packages/leveldb).
+
 To use this package, put the following dependency into your project's package.json into the dependencies section:
 ```
 {
