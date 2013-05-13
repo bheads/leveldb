@@ -25,4 +25,16 @@ There is no client-server support builtin to the library. An application that ne
 
 The is pulls in the C api, its not as complete as the C++ api.  The C++ version uses
 lots of abstract and virtual classes, so until D gets better C++ support this will have
-to do.  I may write up a D wrapper around these in the future.
+to do.  This is used in [d-leveldb](https://github.com/bheads/d-leveldb).
+
+Get this with [dub](http://registry.vibed.org/packages/leveldb):
+### Installation
+To use this package, put the following dependency into your project's package.json into the dependencies section:
+'''
+{
+	...
+	"dependencies": {
+		"leveldb": "~master"
+	}
+}
+'''
