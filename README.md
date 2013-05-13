@@ -30,11 +30,11 @@ to do.  This is used in [d-leveldb](https://github.com/bheads/d-leveldb).
 Get this with [dub](http://registry.vibed.org/packages/leveldb):
 ### Installation
 To use this package, put the following dependency into your project's package.json into the dependencies section:
-'''
+```
 {
 	...
 	"dependencies": {
 		"leveldb": "~master"
 	}
 }
-'''
+```
