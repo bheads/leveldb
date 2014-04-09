@@ -8,6 +8,10 @@
     ],
     "importPaths": ["."],
     "targetType" : "sourceLibrary",
-    "libs-posix" : ["leveldb"],
-    "sourcePaths" : [ "./deimos" ]
+    "sourcePaths" : [ "./deimos" ],
+    "libs" : ["leveldb"],
+    "lflags-windows-x86": ["\"$PACKAGE_DIR\\lib\\win32\\\""],
+    "lflags-windows-x86_64": ["\"/libpath:$PACKAGE_DIR\\lib\\win64\""],
+    "copyFiles-windows-x86": ["lib/win32/leveldb.dll"],
+    "copyFiles-windows-x86_64": ["lib/win64/leveldb.dll"]
 }

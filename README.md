@@ -21,7 +21,7 @@ Only a single process (possibly multi-threaded) can access a particular database
 There is no client-server support builtin to the library. An application that needs such support will have to wrap their own server around the library.
 "
 
-##Version: 1.9.0
+##Version: 1.16.0
 This pulls in the C api, and is used in [d-leveldb](https://github.com/bheads/d-leveldb).
 
 ### Installation
