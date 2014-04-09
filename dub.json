@@ -6,6 +6,8 @@
     "authors": [
         "Byron Heads"
     ],
+    "license": "public domain",
+    "description": "Leveldb D Deimos Bindings.",
     "importPaths": ["."],
     "targetType" : "sourceLibrary",
     "sourcePaths" : [ "./deimos" ],
