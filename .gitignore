@@ -1,0 +1,4 @@
+!lib/win32/leveldb.lib
+!lib/win64/leveldb.lib
+!lib/win32/leveldb.dll
+!lib/win64/leveldb.dll
